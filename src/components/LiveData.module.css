@@ -1,0 +1,119 @@
+.backgrounds {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--neutral-1);
+  box-sizing: border-box;
+}
+.icons,
+.totalBets1 {
+  position: relative;
+  line-height: 96.82%;
+  display: inline-block;
+  min-width: 14px;
+}
+.totalBets1 {
+  font-size: var(--font-size-mini);
+  line-height: 15px;
+  font-weight: 500;
+  min-width: 75px;
+}
+.iconsParent,
+.totalBets {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconsParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-5xs-1);
+  z-index: 1;
+}
+.totalBets {
+  width: 197px;
+  flex-direction: row;
+  padding: var(--padding-xl-7) var(--padding-34xl) var(--padding-2xl-1);
+  box-sizing: border-box;
+  position: relative;
+}
+.totalLossesChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+}
+.coins,
+.totalLosses1 {
+  position: relative;
+  line-height: 96.82%;
+  display: inline-block;
+  min-width: 73px;
+}
+.totalLosses1 {
+  font-size: var(--font-size-mini);
+  line-height: 15px;
+  font-weight: 500;
+  color: var(--neutral-13);
+  min-width: 89px;
+}
+.coinsParent,
+.livedata,
+.totalLosses {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.coinsParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-4xs-9);
+  z-index: 1;
+}
+.livedata,
+.totalLosses {
+  flex-direction: row;
+}
+.totalLosses {
+  width: 227px;
+  padding: var(--padding-lgi-8) var(--padding-39xl) var(--padding-xl-2);
+  box-sizing: border-box;
+  position: relative;
+  color: var(--color-red);
+}
+.livedata {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 476px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h4-medium-size);
+  color: var(--neutral-13);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .livedata {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .coins,
+  .icons {
+    font-size: var(--h5-regular-size);
+    line-height: 15px;
+  }
+}

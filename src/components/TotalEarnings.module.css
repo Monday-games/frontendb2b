@@ -1,0 +1,61 @@
+.totalEarningsChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--neutral-1);
+}
+.coins,
+.totalEarnings1 {
+  position: relative;
+  line-height: 96.82%;
+  display: inline-block;
+  min-width: 73px;
+}
+.totalEarnings1 {
+  font-size: var(--font-size-mini);
+  line-height: 15px;
+  font-weight: 500;
+  color: var(--neutral-13);
+  min-width: 109px;
+}
+.coinsParent,
+.totalEarnings {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.coinsParent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-4xs-9);
+  z-index: 1;
+}
+.totalEarnings {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-lgi-8) var(--padding-54xl) var(--padding-xl-2);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 109px;
+  text-align: left;
+  font-size: var(--h4-medium-size);
+  color: var(--color-limegreen);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .coins {
+    font-size: var(--h5-regular-size);
+    line-height: 15px;
+  }
+  .totalEarnings {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

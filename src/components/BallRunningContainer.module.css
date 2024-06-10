@@ -1,0 +1,204 @@
+.runningBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-1);
+}
+.marketId123456 {
+  position: relative;
+  font-weight: 500;
+}
+.marketDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi);
+}
+.overBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-aquamarine);
+}
+.over0120 {
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.market,
+.overBackgroundParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.overBackgroundParent {
+  align-items: flex-start;
+  padding: var(--padding-mid) var(--padding-13xl) var(--padding-base)
+    var(--padding-14xl);
+  position: relative;
+  white-space: nowrap;
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-13);
+}
+.market {
+  align-items: flex-end;
+  gap: var(--gap-7xl-3);
+  max-width: 100%;
+}
+.marketTime1,
+.timeArray {
+  position: relative;
+  line-height: 96.82%;
+}
+.marketTime1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.timeArray {
+  display: inline-block;
+  min-width: 66px;
+  white-space: nowrap;
+}
+.marketTimeParent,
+.timeValue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.marketTimeParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xl-5);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.timeValue {
+  width: 230.5px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 74px;
+}
+.button {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-red);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-mini-5) var(--padding-9xl);
+  gap: var(--gap-5xs);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--body-regular-size);
+  color: var(--neutral-1);
+  font-family: var(--body-regular);
+}
+.button,
+.marketTime,
+.timeDetails {
+  display: flex;
+  align-items: flex-start;
+}
+.timeDetails {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.marketTime {
+  width: 457.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-limegreen);
+}
+.ballRunningContainer,
+.ballrunning,
+.marketParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.marketParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.ballRunningContainer,
+.ballrunning {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.ballrunning {
+  flex: 1;
+  padding: 0 var(--padding-lg) 0 var(--padding-3xl);
+  position: relative;
+  z-index: 1;
+}
+.ballRunningContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) 0 var(--padding-mid);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1025px) {
+  .marketParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .market {
+    flex-wrap: wrap;
+  }
+  .marketTime1,
+  .timeArray {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .timeDetails {
+    flex-wrap: wrap;
+  }
+}

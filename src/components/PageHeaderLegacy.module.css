@@ -1,0 +1,431 @@
+.firstLevelMenu,
+.stItem {
+  display: flex;
+  align-items: center;
+}
+.firstLevelMenu {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+}
+.stItem {
+  height: 22px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.separator {
+  position: relative;
+  line-height: 22px;
+}
+.componentsseparator {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.ndItem,
+.secondLevelMenu {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.secondLevelMenu {
+  height: 22px;
+  position: relative;
+  line-height: 22px;
+}
+.ndItem {
+  flex-direction: row;
+  justify-content: flex-start;
+  min-width: 77px;
+}
+.separator1 {
+  position: relative;
+  line-height: 22px;
+}
+.componentsseparator1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.lastItemLabel {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+.breadcrumb,
+.lastItem {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lastItem {
+  height: 22px;
+  display: flex;
+  color: var(--character-title-85);
+}
+.breadcrumb {
+  width: 343px;
+  overflow: hidden;
+  display: none;
+  flex-wrap: wrap;
+  max-width: 100%;
+  row-gap: 20px;
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.title {
+  text-decoration: none;
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 95px;
+}
+.headingLeft,
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headingLeft {
+  align-self: stretch;
+  padding: var(--padding-5xs) 0;
+}
+.heightIcon {
+  height: 72px;
+  width: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.avatarShape,
+.avatarShape1 {
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.image,
+.width {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.width {
+  height: 0;
+  flex: 1;
+  overflow: hidden;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.image {
+  width: 72px;
+  justify-content: flex-start;
+  background-image: url(/public/image@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.role {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.texttext {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+}
+.layoutblocksvertical2,
+.texttext1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texttext1 {
+  overflow: hidden;
+  flex-direction: row;
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.layoutblocksvertical2 {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.layoutblockshorizontal22,
+.userDetails {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.userDetails {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 462px;
+}
+.layoutblockshorizontal22 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+}
+.title2 {
+  height: 22px;
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.title1 {
+  width: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.suffix,
+.value {
+  position: relative;
+}
+.value {
+  align-self: stretch;
+  flex: 1;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.suffix {
+  width: 23px;
+  font-size: var(--h5-regular-size);
+  line-height: 24px;
+  display: none;
+}
+.statisticContentValue,
+.statisticlegacy {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.statisticContentValue {
+  width: 27px;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--character-title-85);
+}
+.statisticlegacy {
+  height: 64px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.lineIcon {
+  height: 32px;
+  width: 0;
+  position: relative;
+}
+.divider {
+  width: px;
+  background-color: var(--conditional-divider);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: px;
+}
+.title4 {
+  height: 22px;
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.title3 {
+  width: 89px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.value1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.suffix1 {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  font-size: var(--h5-regular-size);
+  line-height: 24px;
+  display: inline-block;
+}
+.statisticContentValue1,
+.statisticlegacy1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.statisticContentValue1 {
+  width: 39px;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--character-title-85);
+}
+.statisticlegacy1 {
+  height: 64px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.lineIcon1 {
+  height: 32px;
+  width: 0;
+  position: relative;
+}
+.divider1 {
+  width: px;
+  background-color: var(--conditional-divider);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: px;
+}
+.title6 {
+  height: 22px;
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.title5 {
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.value2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.suffix2 {
+  width: 23px;
+  position: relative;
+  font-size: var(--h5-regular-size);
+  line-height: 24px;
+  display: none;
+}
+.statisticContentValue2,
+.statisticlegacy2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.statisticContentValue2 {
+  width: 59px;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--character-title-85);
+}
+.statisticlegacy2 {
+  height: 64px;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.layoutblockshorizontal5 {
+  height: 32px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  z-index: 2;
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.layoutblockshorizontal2,
+.pageHeaderlegacy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.layoutblockshorizontal2 {
+  margin-left: -28px;
+  width: 864px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xl);
+}
+.pageHeaderlegacy {
+  align-self: stretch;
+  background-color: var(--neutral-1);
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-5xl) var(--padding-base);
+  gap: var(--gap-xs);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--h4-medium-size);
+  color: var(--character-title-85);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 750px) {
+  .userDetails {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .role,
+  .title {
+    font-size: var(--h5-regular-size);
+    line-height: 22px;
+  }
+  .value,
+  .value1,
+  .value2 {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+}

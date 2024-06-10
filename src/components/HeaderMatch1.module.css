@@ -1,0 +1,321 @@
+.matchBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-1);
+}
+.image11Icon {
+  align-self: stretch;
+  width: 43.6px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 62px;
+}
+.vs {
+  position: relative;
+  line-height: 14px;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 12px;
+}
+.versus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-23xl-5) 0 0;
+}
+.image12Icon {
+  height: 60px;
+  width: 49.7px;
+  position: relative;
+  object-fit: cover;
+}
+.image11Parent {
+  gap: var(--gap-3xs-3);
+}
+.image11Parent,
+.logos,
+.logosInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logos {
+  flex-direction: column;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.teamNamesArray {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 126px;
+}
+.texttext {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+}
+.texttext1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 0;
+  font-size: var(--body-regular-size);
+}
+.teamNames,
+.texttextParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.texttextParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.teamNames {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-2);
+  box-sizing: border-box;
+  min-width: 135px;
+  font-size: var(--h5-regular-size);
+  color: var(--character-title-85);
+}
+.text1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 71px;
+  white-space: nowrap;
+}
+.text2,
+.texttext2 {
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.texttext2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+}
+.text2 {
+  margin-top: -3px;
+  flex: 1;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.detailValue {
+  align-self: stretch;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--h5-regular-size);
+  color: var(--character-title-85);
+}
+.matchDetails,
+.texttextGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.texttextGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.matchDetails {
+  width: 194px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  box-sizing: border-box;
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.teamLogos {
+  width: 568px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.text3 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 71px;
+}
+.infoData,
+.texttext3 {
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.texttext3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infoData {
+  margin-top: -3px;
+  text-decoration: none;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 103px;
+  white-space: nowrap;
+}
+.infoValueWrapper,
+.texttextContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infoValueWrapper {
+  height: 37px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--h5-regular-size);
+  color: var(--character-title-85);
+}
+.texttextContainer {
+  flex-direction: column;
+}
+.a,
+.wrapperIcon {
+  position: relative;
+}
+.a {
+  line-height: 22px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 90px;
+}
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper {
+  background-color: var(--primary-6);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-81xl);
+  background-color: var(--neutral-1);
+  border: 1px solid var(--color-blue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-14xl);
+  gap: var(--gap-3xs);
+}
+.actionButtonWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  text-align: center;
+  color: var(--color-blue);
+}
+.actionButtonWrapper,
+.ballRunningInfo,
+.liveInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.ballRunningInfo {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+}
+.liveInfo {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  font-size: var(--body-regular-size);
+  color: var(--character-secondary-45);
+}
+.headermatch,
+.teamLogosParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  z-index: 1;
+}
+.teamLogosParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.headermatch {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-3xl) var(--padding-xs-8);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-4xs-9);
+  color: var(--neutral-13);
+  font-family: var(--body-regular);
+}
+@media screen and (max-width: 1025px) {
+  .teamLogosParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .teamLogos {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ballRunningInfo {
+    gap: var(--gap-4xl);
+  }
+}
