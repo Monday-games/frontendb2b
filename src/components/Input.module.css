@@ -1,0 +1,31 @@
+.cursor,
+.input1 {
+  position: relative;
+}
+.input1 {
+  line-height: 22px;
+  display: inline-block;
+  min-width: 8px;
+}
+.cursor {
+  width: 1px;
+  height: 18px;
+  background-color: var(--neutral-13);
+}
+.input,
+.inputCursor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.input {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-16xl) var(--padding-12xs) 0;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--character-title-85);
+  font-family: var(--body-regular);
+}

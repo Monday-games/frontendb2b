@@ -1,0 +1,114 @@
+.wrapperIcon {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  align-self: stretch;
+  width: 45px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.button,
+.resultbuttons {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-11xs);
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  overflow: hidden;
+  padding: var(--padding-8xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+}
+.resultbuttons {
+  z-index: 1;
+}
+.wrapperIcon1 {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconWrapper1 {
+  background-color: var(--hitbox);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button1,
+.text1 {
+  align-self: stretch;
+}
+.text1 {
+  width: 45px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.button1 {
+  flex: 1;
+  box-shadow: var(--drop-shadow-button-primary);
+  border-radius: var(--br-11xs);
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-mini);
+  gap: var(--gap-5xs);
+}
+.button1,
+.frameWrapper,
+.resultbuttons1,
+.resultbuttonsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resultbuttons1 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  z-index: 1;
+}
+.frameWrapper,
+.resultbuttonsParent {
+  flex-direction: column;
+}
+.resultbuttonsParent {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-7xl);
+}
+.frameWrapper {
+  height: 99px;
+  width: 77px;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--body-regular-size);
+  color: var(--neutral-1);
+  font-family: var(--body-regular);
+}
